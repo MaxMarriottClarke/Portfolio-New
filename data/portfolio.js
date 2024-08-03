@@ -6,19 +6,18 @@ const header = {
 
 const about = {
   // each of these properties is optional - they can be left empty or deleted
-  // the first element in the `names` array will be treated as your first name, and all the elements combined will be treated as your full name
   // each element in the `description` array will be treated as a separate paragraph
-  names: ['John', 'Doe'],
+  names: ['Max', 'Marriott-Clarke'],
   greetingEmoji: '👋',
-  role: 'Software Engineer',
-  company: 'Acme Labs',
+  role: 'MSci Theoretical Physics Student',
+  company: 'Imperial College London',
   description: [
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    '4th year MSci student with a passion for mathematical problem solving looking to break into quant development.',
   ],
   resume: 'https://example.com',
   social: {
-    github: 'https://github.com',
-    linkedin: 'https://linkedin.com',
+    github: 'https://github.com/MaxMarriottClarke',
+    linkedin: 'https://www.linkedin.com/in/max-marriott-clarke-1736b820a/',
   },
 }
 
@@ -28,9 +27,29 @@ const projects = [
   // each element in each `description` array will be treated as a separate paragraph
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 1',
+    name: 'C++ Monte Carlo Value-at-Risk Engine',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'This program is the culmination of two months of work to create a fully functional and comprehensive Monte Carlo value-at-risk engine for calculating the risk of a financial portfolio, on a total portfolio level as well as on an individual instrument level.',
+    ],
+    stack: ['C++', 'C'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://example.com',
+  },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Black Scholes',
+    description: [
+      'Black Scholes in python project',
+    ],
+    stack: ['Python'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://example.com',
+  },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'MSci Project',
+    description: [
+      'My Msci Project - ongoing. Using pytorch to reconstruct machine learning',
     ],
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
@@ -38,31 +57,31 @@ const projects = [
   },
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 2',
+    name: 'Extracting Neutrino Oscillation Paramaters via Machine Learning',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Using gradient descent and other machine learning tools',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Python', 'PyTorch'],
     sourceCode: 'https://github.com',
     livePreview: 'https://example.com',
   },
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 3',
+    name: 'Tennis AI tracker',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Using yolo and python tracking tennis points',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Python', 'PyTorch'],
     sourceCode: 'https://github.com',
     livePreview: 'https://example.com',
   },
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 4',
+    name: 'Cosmig Game - pygame',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Built a game using pygame',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Python', 'Pygame'],
     sourceCode: 'https://github.com',
     livePreview: 'https://example.com',
   },
@@ -71,24 +90,26 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if the array is left empty, the "Skills" section won't render
-  'HTML',
-  'CSS',
+  'Python',
+  'C++',
+  'R',
+  'Java',
+  'SQL',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
+  'AWS',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Django',
+  'Next.js',
+  'GraphQL',
+  'Linux',
+  'Docker'
 ]
 
 const contact = {
   // the `email` property is optional - it can be left empty or deleted
   // if so, the "Contact" section won't render
-  email: 'johndoe@email.com',
+  email: 'mm1221@ic.ac.uk',
 }
 
 export { header, about, projects, skills, contact }
