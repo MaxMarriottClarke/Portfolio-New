@@ -26,34 +26,31 @@ const projects = [
   // if the array is left empty, the "Projects" section won't render
   // each element in each `description` array will be treated as a separate paragraph
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: 'images/VAR.jpeg',
     name: 'C++ Monte Carlo Value-at-Risk Engine',
     description: [
       "This C++ Monte Carlo Value-at-Risk (VaR) engine assesses portfolio risk at both the portfolio and instrument levels. Leveraging design patterns for extensibility, it supports various instruments and stochastic processes. Core classes handle simulations, valuations, and statistics, while auxiliary classes manage tasks like covariance matrix calculation and historical backtesting.",
     ],
     stack: ['C++', 'C'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
+    sourceCode: 'https://github.com/MaxMarriottClarke/CppMonteCarloVaR',
+  },
+  {
+    thumbnail: 'images/Tennis.jpeg',
+    name: 'Tennis ML Video Analysis',
+    description: [
+      'This project, developed using PyTorch, focuses on analyzing tennis videos to measure player speed, shot velocity, and shot frequency. It employs YOLO for detecting players and the tennis ball, and uses CNNs to extract key court keypoints. This work showcases advanced skills in machine learning and computer vision.',
+    ],
+    stack: ['Python', 'Pytorch', 'YOLO'],
+    sourceCode: 'https://github.com/MaxMarriottClarke/TennisML'
   },
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Black Scholes',
+    name: 'Augmented Reality Application',
     description: [
-      'Black Scholes in python project',
+      'This project focuses on Camera Calibration and Augmented Reality. Using a checkerboard with 9 columns and 6 rows (54 internal corners) as the target, the system detects and extracts corners for camera calibration. Multiple images from different angles are used to determine intrinsic camera parameters such as focal length and image center. With the camera matrix and distortion coefficients, the project calculates the transitional and rotational vectors to accurately overlay 3D objects onto the 2D scene.',
     ],
-    stack: ['Python'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
-  },
-  {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'MSci Project',
-    description: [
-      'My Msci Project - ongoing. Using pytorch to reconstruct machine learning',
-    ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
+    stack: ['C++', 'opencv'],
+    sourceCode: 'https://github.com/MaxMarriottClarke/AR-Cpp'
   },
   {
     thumbnail: 'images/placeholder-image.jpeg',
