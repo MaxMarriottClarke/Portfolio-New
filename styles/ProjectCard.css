@@ -4,7 +4,7 @@
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr;
   gap: 1rem;
 }
 
@@ -46,7 +46,7 @@
 
 @media (min-width: 777px) {
   .project {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     align-items: center;
     gap: 2rem;
   }

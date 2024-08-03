@@ -29,7 +29,7 @@ const projects = [
     thumbnail: 'images/placeholder-image.jpeg',
     name: 'C++ Monte Carlo Value-at-Risk Engine',
     description: [
-      'This program is the culmination of two months of work to create a fully functional and comprehensive Monte Carlo value-at-risk engine for calculating the risk of a financial portfolio, on a total portfolio level as well as on an individual instrument level.',
+      "This C++ Monte Carlo Value-at-Risk (VaR) engine assesses portfolio risk at both the portfolio and instrument levels. Leveraging design patterns for extensibility, it supports various instruments and stochastic processes. Core classes handle simulations, valuations, and statistics, while auxiliary classes manage tasks like covariance matrix calculation and historical backtesting.",
     ],
     stack: ['C++', 'C'],
     sourceCode: 'https://github.com',
