@@ -1,0 +1,65 @@
+.nav {
+  padding-top: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.nav__list {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+}
+
+.nav__list-item {
+  margin: 0.5rem 0;
+}
+
+.nav__button {
+  z-index: 1;
+}
+
+li.nav__scroll-top {
+  display: none;
+}
+
+div.nav__scroll-top {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .nav__list {
+    width: unset;
+    height: unset;
+    font-size: unset;
+    display: flex;
+    flex-direction: unset;
+    justify-content: unset;
+    align-items: unset;
+    gap: 1.5rem;
+    position: unset;
+    inset: unset;
+  }
+
+  .nav__list-item {
+    margin: unset;
+  }
+
+  .nav__hamburger {
+    display: none;
+  }
+
+  li.nav__scroll-top {
+    display: unset;
+  }
+
+  div.nav__scroll-top {
+    display: none;
+  }
+}

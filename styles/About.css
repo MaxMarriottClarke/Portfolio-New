@@ -1,0 +1,34 @@
+.about {
+  --about-column-gap: 2.4rem;
+  min-height: calc(100vh - var(--header-height));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--about-column-gap);
+}
+
+.about__pseudo-padding {
+  flex: 1;
+}
+
+.about__pseudo-padding-top {
+  min-height: calc(3rem - var(--about-column-gap));
+}
+
+.about__desc {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.about__contact {
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .about__pseudo-padding-top {
+    min-height: calc(5rem - var(--about-column-gap));
+  }
+}

@@ -1,0 +1,13 @@
+.scroll-top {
+  display: none;
+}
+
+@media (min-width: 915px) {
+  .scroll-top {
+    background-color: transparent;
+    display: unset;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+  }
+}
