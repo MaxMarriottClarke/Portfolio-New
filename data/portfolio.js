@@ -44,7 +44,7 @@ const projects = [
     sourceCode: 'https://github.com/MaxMarriottClarke/TennisML'
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: 'images/AR.jpg',
     name: 'Augmented Reality Application',
     description: [
       'This project focuses on Camera Calibration and Augmented Reality. Using a checkerboard with 9 columns and 6 rows (54 internal corners) as the target, the system detects and extracts corners for camera calibration. Multiple images from different angles are used to determine intrinsic camera parameters such as focal length and image center. With the camera matrix and distortion coefficients, the project calculates the transitional and rotational vectors to accurately overlay 3D objects onto the 2D scene.',
