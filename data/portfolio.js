@@ -53,14 +53,13 @@ const projects = [
     sourceCode: 'https://github.com/MaxMarriottClarke/AR-Cpp'
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Extracting Neutrino Oscillation Paramaters via Machine Learning',
+    thumbnail: 'images/Final.png',
+    name: 'Neutrino Parameter Estimation via Optimisation',
     description: [
-      'Using gradient descent and other machine learning tools',
+      'In this project, I developed a Python application to estimate neutrino oscillation parameters using machine learning techniques. I implemented two optimization methods: a Univariate minimizer and a Hybrid Particle Swarm Optimisation - Simulated Annealing (HPSO-SA) minimizer. The project focused on minimizing a negative log-likelihood function to extract the relevant parameters. I compared and tested both optimization approaches to ensure accuracy and efficiency, showcasing the power of machine learning in scientific analysis.',
     ],
-    stack: ['Python', 'PyTorch'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
+    stack: ['Python', 'Data Analysis'],
+    livePreview: 'https://online.publuu.com/612309/1369669',
   },
   {
     thumbnail: 'images/placeholder-image.jpeg',
@@ -73,14 +72,13 @@ const projects = [
     livePreview: 'https://example.com',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: 'images/Cosmic.png',
     name: 'Cosmig Game - pygame',
     description: [
-      'Built a game using pygame',
+      'A 2D Spacecraft shooter game to learn more about pygame and improve development skills. It includes mutliple levels, increasing difficulty, powerups, bosses, enemies and much more.',
     ],
     stack: ['Python', 'Pygame'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
+    sourceCode: 'https://github.com/MaxMarriottClarke/pygameGame',
   },
 ]
 
