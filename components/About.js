@@ -9,7 +9,7 @@ const About = () => {
     about
   const firstName = names[0]
   const fadeInAnimationClassName =
-    'animate__animated animate__fadeIn animate__delay-5s'
+    'animate__animated animate__fadeIn animate__delay-2s'
 
   return (
     <div className='about'>
@@ -19,18 +19,18 @@ const About = () => {
         <div>
           {firstName && (
             <h1 className='about__greeting animate__animated animate__fadeInUp animate__delay-1s'>
-              Hey, I&apos;m <span className='text--strong'>{firstName}</span>.
+               <span className='text--strong'>{firstName}</span>.
               {greetingEmoji && <span> {greetingEmoji}</span>}
             </h1>
           )}
 
           {role && (
-            <h1 className='about__role animate__animated animate__fadeInUp animate__delay-3s'>
-              I&apos;m a {role}
+            <h1 className='about__role animate__animated animate__fadeInUp animate__delay-1s'>
+               {role}
               {company && (
                 <span>
                   {' '}
-                  at <span className='text--strong'>{company}</span>
+                   <span className='text--strong'>{company}</span>
                 </span>
               )}
               .
@@ -61,7 +61,7 @@ const About = () => {
           {resume && (
             <a href={resume} target='_blank' rel='noreferrer'>
               <span type='button' className='btn btn--outline'>
-                Resume
+                CV
               </span>
             </a>
           )}

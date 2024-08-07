@@ -14,7 +14,7 @@ const about = {
   description: [
     '4th year MSci student with a passion for mathematical problem solving looking to break into quant development.',
   ],
-  resume: 'https://example.com',
+  resume: 'https://online.publuu.com/612309/1369749',
   social: {
     github: 'https://github.com/MaxMarriottClarke',
     linkedin: 'https://www.linkedin.com/in/max-marriott-clarke-1736b820a/',
@@ -35,15 +35,6 @@ const projects = [
     sourceCode: 'https://github.com/MaxMarriottClarke/CppMonteCarloVaR',
   },
   {
-    thumbnail: 'images/Tennis.jpeg',
-    name: 'Tennis ML Video Analysis',
-    description: [
-      'This project, developed using PyTorch, focuses on analyzing tennis videos to measure player speed, shot velocity, and shot frequency. It employs YOLO for detecting players and the tennis ball, and uses CNNs to extract key court keypoints. This work showcases advanced skills in machine learning and computer vision.',
-    ],
-    stack: ['Python', 'Pytorch', 'YOLO'],
-    sourceCode: 'https://github.com/MaxMarriottClarke/TennisML'
-  },
-  {
     thumbnail: 'images/AR.jpg',
     name: 'Augmented Reality Application',
     description: [
@@ -51,6 +42,14 @@ const projects = [
     ],
     stack: ['C++', 'opencv'],
     sourceCode: 'https://github.com/MaxMarriottClarke/AR-Cpp'
+  },
+  {
+    thumbnail: 'images/TracksterHits2.png',
+    name: 'MSci Project - Enhancing Particle Event Reconstruction with Self-Supervised Learning at CERN',
+    description: [
+      'For my master’s project, I am collaborating with CERN to enhance event reconstruction for the CMS experiment at the Large Hadron Collider. I am using PyTorch to develop and refine self-supervised machine learning models, specifically contrastive learning algorithms, to process data from the upgraded calorimeter with 6 million channels. By leveraging PyTorch’s deep learning capabilities, I focus on training and optimizing these models to improve clustering and interpretation of particle collision events, aiming for more accurate and robust event reconstruction compared to traditional methods.',
+    ],
+    stack: ['Python', 'Pytorch']
   },
   {
     thumbnail: 'images/Final.png',
@@ -62,14 +61,13 @@ const projects = [
     livePreview: 'https://online.publuu.com/612309/1369669',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Tennis AI tracker',
+    thumbnail: 'images/Tennis.jpeg',
+    name: 'Tennis ML Video Analysis',
     description: [
-      'Using yolo and python tracking tennis points',
+      'This project, developed using PyTorch, focuses on analyzing tennis videos to measure player speed, shot velocity, and shot frequency. It employs YOLO for detecting players and the tennis ball, and uses CNNs to extract key court keypoints. This work showcases advanced skills in machine learning and computer vision.',
     ],
-    stack: ['Python', 'PyTorch'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://example.com',
+    stack: ['Python', 'Pytorch', 'YOLO'],
+    sourceCode: 'https://github.com/MaxMarriottClarke/TennisML'
   },
   {
     thumbnail: 'images/Cosmic.png',

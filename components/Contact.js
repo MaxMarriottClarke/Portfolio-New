@@ -5,7 +5,7 @@ const Contact = () => {
 
   return (
     <section
-      className='section contact center animate__animated animate__fadeIn animate__delay-5s'
+      className='section contact center animate__animated animate__fadeIn animate__delay-4s'
       id='contact'
     >
       <h2 className='section__title'>Contact</h2>
