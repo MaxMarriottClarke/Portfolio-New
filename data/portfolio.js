@@ -52,7 +52,7 @@ const projects = [
     stack: ['Python', 'Pytorch']
   },
   {
-    thumbnail: 'images/Final.png',
+    thumbnail: 'images/FINAL.png',
     name: 'Neutrino Parameter Estimation via Optimisation',
     description: [
       'In this project, I developed a Python application to estimate neutrino oscillation parameters using machine learning techniques. I implemented two optimization methods: a Univariate minimizer and a Hybrid Particle Swarm Optimisation - Simulated Annealing (HPSO-SA) minimizer. The project focused on minimizing a negative log-likelihood function to extract the relevant parameters. I compared and tested both optimization approaches to ensure accuracy and efficiency, showcasing the power of machine learning in scientific analysis.',
